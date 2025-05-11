@@ -250,7 +250,9 @@ margin-right: 11px;}
 /* end Social Media Stats */
 /* end wrapper */
 /* start footer  */
-footer table {border-spacing: 0;}
+footer {  overflow-x: auto;}
+footer table {  min-width: 1000px;
+  border-spacing: 0;}
 footer table thead {font-weight: bold;
   background-color: #eee;}
 footer table td {
